@@ -47,7 +47,7 @@ console.log('Second Fav Food:',me.favThreeFoods[2]);
 
 console.log('Current shoe count:', me.shoeCount);
 
-me.shoeCount = 21;
+me.shoeCount = me.shoeCount + 1;
 
 console.log('Shoe count is now:', me.shoeCount);
 
